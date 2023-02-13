@@ -1,0 +1,75 @@
+
+h6{
+    color:white;
+    font-size: 12px;
+}
+.old{
+    text-decoration: line-through;
+    color:red;
+}
+input[type=submit]{
+    width:100px;
+    height:30px;
+    background-color: #005cbf;
+    border-radius: 10px;
+}
+.pagination {
+    float: right;
+    margin: 0 0 5px;
+}
+.pagination li a {
+    border: none;
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0 2px;
+    line-height: 30px;
+    border-radius: 2px !important;
+    text-align: center;
+    padding: 0 6px;
+}
+.pagination li a:hover {
+    color: #666;
+}
+.pagination li.active a, .pagination li.active a.page-link {
+    background: #03A9F4;
+}
+.pagination li.active a:hover {
+    background: #0397d6;
+}
+.pagination li.disabled i {
+    color: #ccc;
+}
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+.circle {
+    background: blue;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 30px;
+    width: 30px;
+    align-self: center;
+
+}
+.circle_per {
+    background: white;
+    border: 0.1875em solid #0F1C3F;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 30px;
+    width: 30px;
+    align-self: center;
+
+}
+.buy{
+    background: red;
+    height:40px;
+    width: 90px;
+    border-radius: 3px;
+    text-align: center;
+}
+

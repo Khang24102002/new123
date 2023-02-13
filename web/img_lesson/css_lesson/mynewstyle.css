@@ -1,0 +1,219 @@
+
+
+.nextprev a.w3-right, .nextprev a.w3-left {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-example {
+    padding: 8px 20px;
+    margin: 24px -20px;
+    box-shadow: none!important;
+}
+.w3-example {
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.w3-section, .w3-code {
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+}
+.w3-padding {
+    padding: 8px 16px!important;
+}
+.w3-padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+.xx {
+    background-color: #E7E9EB;
+    color: black;
+    box-shadow: none !important;
+    outline: none;
+}
+.ws-black {
+    background-color: #282A35!important;
+    color: white!important;
+}
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, input, select, textarea, optgroup {
+    font: inherit;
+    margin: 0;
+}
+.ws-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+table-all {
+    margin: 20px 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.ws-table-all tr:nth-child(odd) {
+    background-color: #fff;
+}
+.ws-table-all tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+.ws-table-all td, .ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+}
+.ws-black {
+    background-color: #282A35!important;
+    color: white!important;
+    width: 700px;
+}
+w3-info {
+    background-color: #D9EEE1;
+    border-left: none;
+    padding: 32px;
+    margin: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+}
+.cnx-ui-cm {
+    background-color: rgba(13,25,45,.98);
+    display: flex;
+    flex-direction: column;
+    left: 15%;
+    overflow: hidden;
+    padding: 7px 0;
+    pointer-events: all;
+    position: absolute;
+    top: 0;
+    transition: opacity .2s ease-in-out;
+    z-index: 100;
+}
+.cnx-ui-cm-settings {
+    width: 260px;
+}
+.cnx-ui-gradient-bottom, .cnx-ui-gradient-top {
+    background: linear-gradient(180deg,rgba(0,0,0,.36),rgba(0,0,0,.25) 26.1%,rgba(0,0,0,.14) 67.59%,transparent);
+    position: absolute;
+    transition: inherit;
+    width: 100%;
+    z-index: -1;
+}
+cnx {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: block;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    /* font-weight: 400; */
+    line-height: 1;
+    text-align: left;
+}
+.cnx-ui-btn .cnx-ui-btn-hoverable {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+cnx-ad-container .cnx-ad-slot, .cnx-icon-button, .cnx-non-linear-ad-container .cnx-ad-slot, .cnx-progress-bar, .cnx-ui-btn .cnx-ui-btn-hoverable, .cnx-ui.cnx-ui-ad .cnx-ui-ad-content .cnx-ui-btn .cnx-icon-button .cnx-btn-container, .cnx-volume-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cnx-ui-btn .cnx-ui-btn-hoverable {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.cnx-ui-video {
+    overflow: hidden;
+    transition: transform .2s ease-in-out,opacity .2s ease-in-out;
+}
+.cnx-ui {
+    z-index: 10;
+}
+.cnx-ui {
+    display: flex;
+    flex-direction: column;
+}
+.cnx-ad-container, .cnx-ad-container .cnx-ad-bid-slot, .cnx-g-style-detailed .cnx-g-card-image-container .cnx-g-card-image:after, .cnx-non-linear-ad-container, .cnx-non-linear-ad-container .cnx-ad-bid-slot, .cnx-pod-loading-screen-container, .cnx-pod-loading-screen-container .cnx-pod-loading-background, .cnx-ui, .cnx-ui-home-screen .cnx-logo-bar, .cnx-ui.cnx-ui-ad .cnx-ui-ad-content, .cnx-up-next-box, .cnx-up-next-box-gradient, .cnx-up-next-box-image, .cnx-video-wrapper {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+cnx {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    display: block;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+}
+.cnx-ad-container, .cnx-boom .cnx-boom-elem, .cnx-logo, .cnx-mobile-captions-bar, .cnx-non-linear-ad-container, .cnx-progress-rail-container, .cnx-ui-ad, .cnx-ui-btn .cnx-ui-btn-hoverable:before, .cnx-ui-content, .cnx-ui-content-mobile, .cnx-ui.cnx-ui-ad .cnx-ui-ad-content .cnx-ad-progress-bar .cnx-progress-bar, .cnx-ui cnx.cnx-button-big-play {
+    pointer-events: none;
+}
+.cnx-ui-bar {
+    width: 100%;
+}
+.cnx-ui-btn .cnx-ui-btn-hoverable {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.cnx-ad-container .cnx-ad-slot, .cnx-icon-button, .cnx-non-linear-ad-container .cnx-ad-slot, .cnx-progress-bar, .cnx-ui-btn .cnx-ui-btn-hoverable, .cnx-ui.cnx-ui-ad .cnx-ui-ad-content .cnx-ui-btn .cnx-icon-button .cnx-btn-container, .cnx-volume-bar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cnx-icon-button {
+    cursor: pointer;
+}
+.cnx-icon-button {
+    cursor: pointer;
+}
+.cnx-icon-button svg {
+    height: 24px;
+    width: 24px;
+}
+.cnx-color-icon
+ {
+    height: 24px;
+    width: 24px;
+}
